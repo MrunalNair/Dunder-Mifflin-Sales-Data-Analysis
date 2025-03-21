@@ -1,6 +1,6 @@
 # Dunder-Mifflin-Sales-Data-Analysis
 
-📊 Enhancing Dunder Mifflin’s Sales with Data-Driven Insights
+<h2>📊 Enhancing Dunder Mifflin’s Sales with Data-Driven Insights</h2>
 
 We are committed to optimizing Dunder Mifflin's store sales by leveraging advanced data analysis techniques, with a special focus on time series analysis. By analyzing historical sales data, our goal is to uncover meaningful patterns, identify trends, and generate accurate sales forecasts to support strategic decision-making.
 
