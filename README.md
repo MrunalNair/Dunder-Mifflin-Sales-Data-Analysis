@@ -20,3 +20,8 @@ Time Series Analysis – Forecasting sales trends using historical data to impro
 
 Through this approach, we aim to provide valuable, data-driven insights that empower Dunder Mifflin to maximize revenue, optimize inventory, and drive business growth with precision forecasting and strategic sales planning. 🚀
 
+Preprocessing:-
+We begin our analysis by importing and cleaning the dataset in Power Query Editor, ensuring data accuracy and consistency. The preprocessing phase includes sorting the data, handling missing values, and refining data types to maintain integrity.
+
+To gain initial insights, we manually inspect and visualize the data, identifying patterns, anomalies, and trends. This Exploratory Data Analysis (EDA) step allows us to understand the dataset’s structure, detect outliers, and ensure it is well-prepared for further analysis and forecasting.
+
