@@ -64,3 +64,40 @@ Customer Retention & Repeat Purchase Rate 🔄 – Analyzing customer buying beh
 These real-time, interactive dashboards provide a clear picture of business performance, enabling data-driven decision-making.
 
 
+<h1>📊 Extracting Insights Using DAX</h1>
+To answer critical business questions and derive actionable insights, we utilize DAX (Data Analysis Expressions) in Power BI. DAX allows us to perform complex calculations, aggregations, and data transformations efficiently.
+
+📌 Key Queries Answered Using DAX
+
+1️⃣ Total Revenue Calculation 💰
+
+Total Revenue = SUM(Sales[Revenue])
+
+Helps track overall earnings and profitability.
+
+2️⃣ Year-over-Year (YoY) Sales Growth 📈
+
+YoY Growth = ([Total Revenue] - [Previous Year Revenue]) / [Previous Year Revenue]
+
+Measures business growth and seasonal sales performance.
+
+3️⃣ Best-Selling Products & Categories 🏆
+
+Top Product = TOPN(1, SUMMARIZE(Sales, Sales[Product], "TotalSales", SUM(Sales[Revenue])), [TotalSales], DESC)
+Identifies the highest revenue-generating products.
+4️⃣ Monthly & Quarterly Sales Trends 📆
+
+Monthly Sales = CALCULATE(SUM(Sales[Revenue]), DATESMTD(Sales[Date]))
+Tracks revenue patterns over different timeframes.
+5️⃣ Customer Retention & Repeat Purchase Rate 🔄
+
+Repeat Customers = COUNTROWS(FILTER(Sales, Sales[CustomerID] IN VALUES(Sales[CustomerID])))
+Analyzes repeat purchases and customer loyalty.
+🔍 Why Use DAX?
+✅ Enables dynamic calculations for real-time reporting.
+✅ Helps create customized KPIs and measures beyond default aggregations.
+✅ Enhances dashboard interactivity with user-driven insights.
+
+By leveraging DAX functions, we transform raw data into meaningful business intelligence, enabling better decision-making and strategic planning. 🚀
+
+
