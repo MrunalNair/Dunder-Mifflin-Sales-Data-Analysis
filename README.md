@@ -4,7 +4,7 @@
 
 We are committed to optimizing Dunder Mifflin's store sales by leveraging advanced data analysis techniques, with a special focus on time series analysis. By analyzing historical sales data, our goal is to uncover meaningful patterns, identify trends, and generate accurate sales forecasts to support strategic decision-making.
 
-🛠 Tools & Techniques
+<h4>🛠 Tools & Techniques</h4>
 
 We utilize a comprehensive suite of data processing, analysis, and visualization tools to ensure high-quality insights:
 
@@ -38,7 +38,7 @@ To gain initial insights, we manually inspect and visualize the dataset, perform
 
 
 
-📊 Data Visualization & KPI Tracking
+<h1>📊 Data Visualization & KPI Tracking</h1>
 
 Once the data is cleaned, we create interactive dashboards in Power BI to visualize key business metrics. Using various chart types, we extract meaningful insights:
 
