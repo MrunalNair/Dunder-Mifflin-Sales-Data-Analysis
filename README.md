@@ -84,19 +84,29 @@ Measures business growth and seasonal sales performance.
 3️⃣ Best-Selling Products & Categories 🏆
 
 Top Product = TOPN(1, SUMMARIZE(Sales, Sales[Product], "TotalSales", SUM(Sales[Revenue])), [TotalSales], DESC)
+
 Identifies the highest revenue-generating products.
+
 4️⃣ Monthly & Quarterly Sales Trends 📆
 
 Monthly Sales = CALCULATE(SUM(Sales[Revenue]), DATESMTD(Sales[Date]))
+
 Tracks revenue patterns over different timeframes.
+
 5️⃣ Customer Retention & Repeat Purchase Rate 🔄
 
 Repeat Customers = COUNTROWS(FILTER(Sales, Sales[CustomerID] IN VALUES(Sales[CustomerID])))
+
 Analyzes repeat purchases and customer loyalty.
+
 🔍 Why Use DAX?
+
 ✅ Enables dynamic calculations for real-time reporting.
+
 ✅ Helps create customized KPIs and measures beyond default aggregations.
+
 ✅ Enhances dashboard interactivity with user-driven insights.
+
 
 By leveraging DAX functions, we transform raw data into meaningful business intelligence, enabling better decision-making and strategic planning. 🚀
 
