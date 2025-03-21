@@ -110,4 +110,27 @@ Analyzes repeat purchases and customer loyalty.
 
 By leveraging DAX functions, we transform raw data into meaningful business intelligence, enabling better decision-making and strategic planning. 🚀
 
+<h1>📈 Sales Forecasting for Future Planning</h1>
+
+With a clear understanding of historical sales data, we implement time series forecasting to predict future sales trends. This process helps in:
+
+✅ Identifying seasonal patterns and peak sales periods.
+
+✅ Estimating future demand to optimize inventory and supply chain.
+
+✅ Planning marketing campaigns based on projected sales performance.
+
+
+By utilizing trend analysis, moving averages, and seasonality detection, we generate accurate sales forecasts, allowing Dunder Mifflin to make proactive business decisions for the next quarter.
+
+
+<h1>🔹Conclusion</h1>
+Through a structured approach—data cleaning, visualization, KPI tracking, DAX analysis, and sales forecasting—we transform raw sales data into actionable insights.
+
+
+By integrating Power BI, Power Query, and DAX, we provide valuable intelligence that enables strategic planning, optimized marketing, and improved sales performance. This data-driven approach ensures Dunder Mifflin stays ahead of the competition, making informed decisions that drive sustainable growth. 🚀
+
+
+
+
 
