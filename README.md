@@ -23,7 +23,7 @@ Through this approach, we aim to provide valuable, data-driven insights that emp
 
 
 
-📥 Data Import & Cleaning
+<h1>📥 Data Import & Cleaning</h1>
 We begin by importing the dataset into Power Query Editor, where we perform data cleaning and preprocessing to ensure accuracy and consistency. This includes:
 
 ✅ Sorting data chronologically for structured analysis.
