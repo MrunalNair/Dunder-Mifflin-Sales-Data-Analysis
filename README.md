@@ -16,5 +16,7 @@ Excel & DAX – Advanced calculations, modeling, and forecasting techniques.
 
 Time Series Analysis – Forecasting sales trends using historical data to improve planning and decision-making.
 
+
+
 Through this approach, we aim to provide valuable, data-driven insights that empower Dunder Mifflin to maximize revenue, optimize inventory, and drive business growth with precision forecasting and strategic sales planning. 🚀
 
